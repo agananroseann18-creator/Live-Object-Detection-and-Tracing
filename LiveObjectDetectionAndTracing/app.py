@@ -17,7 +17,7 @@ st.markdown(
         background-size: 30px 30px;
     }
     h1 {
-        color: #dfe6e9;
+        color: black;
         text-align: center;
         font-weight: 200;
         letter-spacing: 3px;
