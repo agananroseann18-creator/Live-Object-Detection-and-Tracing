@@ -20,7 +20,7 @@ Hey there! This is a project I built to explore the world of Computer Vision. It
 
 ## 📋 What You'll Need
 
-- Python 3.8+
+- Python 3.10
 - A working webcam
 
 ## ⚙️ How to Run It
