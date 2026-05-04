@@ -6,8 +6,27 @@ import cv2
 import os
 import time
 from datetime import datetime
-st.set_page_config(layout="centered")
+st.set_page_config(page_title="Live Object Detection & Tracing", layout="centered")
 
+st.markdown(
+    """
+    <style>
+    [data-testid="stAppViewContainer"] {
+        background-color: #BBD5DA;
+        background-image: radial-gradient(#2d3436 0.5px, transparent 0.5px);
+        background-size: 30px 30px;
+    }
+    h1 {
+        color: #dfe6e9;
+        text-align: center;
+        font-weight: 200;
+        letter-spacing: 3px;
+        padding: 30px 0;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 last_save_time = 0
 
 SAVE_DIR = "detections"
